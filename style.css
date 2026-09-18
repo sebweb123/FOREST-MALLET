@@ -341,6 +341,25 @@ p {
   .nav-links {
     display: none;
   }
+
+  /* Below this width the wordmark and the Commission Inquiry button no
+     longer fit the header alongside each other: the full name wrapped
+     onto its own lines over the hero, and the button ran off the right
+     edge. Collapse to the monogram alone (already a self-contained mark)
+     and give the header and button proportionally less padding. */
+  .header-container {
+    padding: 0 1rem;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .header-actions .btn {
+    padding: 0.7rem 1.1rem;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
 }
 
 /* Hero Section */
